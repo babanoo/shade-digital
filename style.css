@@ -10,14 +10,7 @@
     align-items: center;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 
-}
 
 .container {
     max-width: 1110px;
@@ -34,9 +27,8 @@ body {
 
 header {
     padding-top: 50px;
-    padding-bottom: 188px;
-    margin-left: 405px;
-    margin-right: 418px;
+    
+    
 
 
 
@@ -104,11 +96,12 @@ nav ul {
 
 }
 
-.my-content {
+.section-one .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 159px;
 
 }
 
@@ -123,7 +116,8 @@ h1 {
     font-size: 15px;
     color: #666666;
     margin-bottom: 27px;
-    margin-top: 188px;
+    padding-top: 188px;
+    
 
 }
 
@@ -208,11 +202,13 @@ input {
 
 }
 
-.features .feat {
-    max-width: 1097px;
+.features .container {
+    
     display: grid;
     grid-template-columns: 338px 338px 338px;
-    margin-top: 159px;
+    margin-bottom: 158px;
+    
+    
 
 
 
@@ -223,7 +219,7 @@ input {
 
 
 
-.feat h3 {
+.my-feat h3 {
 
     font-size: 21px;
     font-weight: 700;
@@ -234,7 +230,7 @@ input {
 
 }
 
-.feat p {
+.my-feat p {
     max-width: 278px;
     margin-top: 8px;
     font-size: 17px;
@@ -248,27 +244,27 @@ input {
 
 }
 
-.section-one {
-    width: 1110px;
-    ;
-    padding: 0 422px 0 459px;
+.section-two .container {
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
-    gap: 165px;
+    max-width: 100%;
     background-color: rgba(37, 138, 255, 1);
 
 
+
+
 }
 
-.my-img1 {
+.content-left1 {
     max-width: 297.94px;
     background-image: url(./imges/Rectangle\ \(2\).png);
     background-repeat: no-repeat;
+    
 
 }
 
-.section-one h4 {
+.section-two h4 {
     font-size: 15px;
     font-weight: 700;
     line-height: 18px;
@@ -281,7 +277,7 @@ input {
 
 }
 
-.section-one h5 {
+.section-two h5 {
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
@@ -293,7 +289,7 @@ input {
 
 }
 
-.section-one p {
+.section-two p {
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
@@ -323,16 +319,20 @@ input {
 
 }
 
-.content {
+.content-right1 {
     display: flex;
     flex-direction: column;
+    
 }
 
-.section-two .container {
+.section-three .container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
-.section-two h4 {
+.section-three h4 {
     font-size: 15px;
     font-weight: 700;
     line-height: 18px;
@@ -345,7 +345,7 @@ input {
 
 }
 
-.section-two h5 {
+.section-three h5 {
 
     font-size: 48px;
     font-weight: 700;
@@ -359,7 +359,7 @@ input {
 
 }
 
-.section-two .my-paragraph {
+.section-three .my-paragraph {
     color: rgba(102, 102, 102, 1);
     font-size: 18px;
     font-weight: 400;
@@ -404,18 +404,37 @@ input {
 
 }
 
-.my-img2 {
-
-    width: 636px;
-    height: 636px;
+.content-right2{
+    margin-top: 163.01px;
+    margin-bottom: 164.99px;
+    
 
 }
-.section-three {
+.content-left2{
+    margin-bottom: 185px;
+}
+.underline {
+    border-bottom: 1px solid rgba(255, 255, 255, 1) ;
+}
+.section-four .container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 65px;
+
+
+
+}
+
+.list .container {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    gap: 30px;
+    
     
 }
-.section-three h5 {
+
+.section-four h5 {
     color: rgba(37, 138, 255, 1);
     font-size: 15px;
     font-weight: 700;
@@ -423,10 +442,11 @@ input {
     letter-spacing: 2.8125px;
     text-align: left;
     width: 186px;
+    margin-bottom: 49px;
 
 }
 
-.section-three h6 {
+.section-four h6 {
     max-width: 349px;
     font-size: 48px;
     font-weight: 700;
@@ -434,41 +454,61 @@ input {
     letter-spacing: -2.526315927505493px;
     text-align: left;
     color: rgba(31, 31, 31, 1);
+    margin-bottom: 16px;
 
 
 }
-.section-three .d-f p {
-max-width: 315px;
-font-size: 18px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0px;
-text-align: left;
-color: rgba(102, 102, 102, 1);
+
+.section-four  .content-p{
+    max-width: 315px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(102, 102, 102, 1);
+    margin-bottom: 282.47px;
 
 
 }
-.list {
-    display: flex;
-    justify-content: flex-end;
-    gap: 30px;
-    
-    
-}
- .list-one,
- .list-two,
- .list-three,
- .list-four {
+
+
+
+.list-one,
+.list-two,
+.list-three,
+.list-four {
     background: rgba(255, 255, 255, 1);
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.0361);
     border-radius: 5px;
-    padding: 31px 39px 112px 37px;
+    padding: 31px 39px  37px;
     
+}
+.list-one {
+    padding-bottom: 30px ;
     
+}
+.list-two {
+    padding-bottom: 32px;
+    
+}
+.list-three  {
+    padding-bottom: 29px;
+    
+}
+.list-four {
+    padding-bottom: 29px;
+    
+}
+.list {
+    margin-top: 157px;
+       
+}
 
 
- }
- .section-three .list p {
+
+
+.section-four .list p {
     font-family: Rubik;
     font-size: 18px;
     font-weight: 400;
@@ -476,64 +516,77 @@ color: rgba(102, 102, 102, 1);
     letter-spacing: -0.10000000149011612px;
     text-align: left;
     max-width: 274px;
-    color:  rgba(31, 31, 31, 1);
+    color: rgba(31, 31, 31, 1);
+
+
+
+}
+
+.section-four .list h5 {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.3187499940395355px;
+    text-align: left;
+    color: rgba(31, 31, 31, 1);
+    margin-top: 30px;
     
+
+
+}
+
+.section-four .list h6 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    color: rgba(102, 102, 102, 1);
     
-}
-.section-three .list h5 {
-font-size: 17px;
-font-weight: 700;
-line-height: 28px;
-letter-spacing: -0.3187499940395355px;
-text-align: left;
-color: rgba(31, 31, 31, 1);
-margin-top: 30px;
 
 
 }
-.section-three .list h6 {
-font-size: 15px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: -0.4000000059604645px;
-text-align: left;
-color: rgba(102, 102, 102, 1);
-margin-top: 26px;
 
 
-}
-.list img {
-    display: flex;
-    align-items: center;
-}
 .logos {
     display: flex;
+    justify-content: center;
+    mix-blend-mode: luminosity;
     gap: 58px;
-    opacity: 0.5;
+    opacity: 1;
     margin-bottom: 131.5px;
     margin-top: 122px;
 }
-.section-four {
-    width: 1920px;
-    height: 1106px;
-    background-image: url(./imges/Rectangle\ \(1\).png);
+.section-five .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.section-five {
+    
+    
+    background-image: url(./imges/Rectangle\ \(1\).png);
+    height: 1106px;
 
 }
-.section-four h5 {
-    color:rgba(255, 255, 255, 1);
+
+.section-five h5 {
+    color: rgba(255, 255, 255, 1);
     font-size: 15px;
     font-weight: 700;
     line-height: 18px;
     letter-spacing: 2.8125px;
     text-align: center;
-    
+    text-transform: uppercase;
+    margin-top: 137.5px;
+
 }
-.section-four h6{
+
+.section-five h6 {
     max-width: 611px;
-    color:  rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
@@ -542,46 +595,158 @@ margin-top: 26px;
     margin-top: 49px;
     margin-bottom: 93px;
 }
-.price-1 {
-    background: rgba(43, 64, 90, 1);
-    border-radius: 6px;
-
+.price {
+    display: grid;
+    grid-template-columns: repeat(2,350px);
+    gap: 30px;
+    
 }
 .basic-one {
-color: rgba(229, 229, 229, 1);
+color:  rgba(229, 229, 229, 1);
 font-size: 13px;
 font-weight: 700;
 line-height: 32px;
 letter-spacing: 0.43333330750465393px;
 text-align: left;
-margin-top: 29px;
-margin-bottom: 18px;
+margin: 29px 266px 26px 45px;
 
 }
+.price ul {
+    list-style: none;
+    margin: 26px 99px 52px 72px;
+    
+    
+}
+
+.price-1 {
+    background: rgba(43, 64, 90, 1);
+    border-radius: 6px;
+    
+    
+
+}
+
+.basic-one {
+    color: rgba(229, 229, 229, 1);
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.43333330750465393px;
+    text-align: left;
+    margin-top: 29px;
+    margin-bottom: 18px;
+
+}
+
 .my-price1 {
-color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: left;
+
+}
+sup {
 font-size: 30px;
 font-weight: 700;
 line-height: 35px;
 letter-spacing: -1.2000000476837158px;
 text-align: left;
+margin-top: 26px;
+max-height: 35px;
 
 }
-.my-second {
-color:  rgba(255, 255, 255, 1);
-font-size: 17px;
+.ninety {
+font-size: 50px;
 font-weight: 700;
-line-height: 20px;
-letter-spacing: -0.6799998879432678px;
+line-height: 60px;
+letter-spacing: -2px;
 text-align: left;
+margin-bottom: 2px;
 
 }
+
+.my-second {
+    color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.6799998879432678px;
+    text-align: left;
+    margin-left: 45px;
+
+}
+
 .my-third {
-max-width: 229px;
-font-size: 14px;
+    max-width: 229px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    color: rgba(229, 229, 229, 1);
+    margin-left: 44px;
+    margin-right: 77px;
+
+}
+
+.price-2 {
+    background: rgba(255, 255, 255, 1);
+    max-width: 350px;
+    max-height: 515px;
+
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .logo {
+    margin-top: 164.5px;
+    margin-bottom: 32px;
+}
+footer p {
+color:  rgba(102, 102, 102, 1);
+font-size: 16px;
 font-weight: 400;
-line-height: 23px;
+line-height: 28px;
+letter-spacing: -0.4000000059604645px;
 text-align: left;
-color: rgba(229, 229, 229, 1);
+max-width: 318px;
+margin-bottom: 38px;
+}
+footer .footer-logo {
+    display: flex;
+    gap: 18.67px;
+    margin-bottom: 153px;
+}
+.menu .container {
+    display: grid;
+    grid-template-columns: 93px 137px 128px;
+    gap: 95px;
+    margin-top: 163.5px;
+    margin-bottom: 127px;
+    
+    
+}
+footer ul {
+list-style: none;
+color: rgba(31, 31, 31, 1);
+font-size: 15px;
+font-weight: 700;
+line-height: 40px;
+text-align: left;
+
+
+
+}
+footer h4 {
+font-size: 14px;
+color: rgba(102, 102, 102, 1);
+font-weight: 700;
+line-height: 16px;
+letter-spacing: -0.4000000059604645px;
+text-align: left;
+margin-bottom: 51px;
 
 }
