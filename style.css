@@ -742,17 +742,7 @@ ul .fourth-child {
 
 }
 
-.credit {
-    font-family: Karla;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: -0.4000000059604645px;
-    text-align: left;
-    color: rgba(102, 102, 102, 1);
-    margin: 5px 166px 29px 45px;
 
-}
 
 .my-second {
     color: rgba(255, 255, 255, 1);
@@ -907,9 +897,20 @@ ul .fourth-child {
     cursor: pointer;
     padding: 15px 40px 14px;
     margin-left: 45px;
-    margin-top: 39px;
+    margin-top: 29px;
 
 
+
+}
+.credit {
+    font-family: Karla;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    color: rgba(102, 102, 102, 1);
+    margin: 5px 166px 29px 45px;
 
 }
 
