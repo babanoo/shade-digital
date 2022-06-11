@@ -27,8 +27,8 @@ body {
 
 header {
     padding-top: 50px;
-    
-    
+
+
 
 
 
@@ -81,7 +81,7 @@ nav ul {
 
 }
 
-.button1 {
+.transparent-buttn {
 
     color: #258Aff;
     font-weight: 700;
@@ -117,7 +117,7 @@ h1 {
     color: #666666;
     margin-bottom: 27px;
     padding-top: 188px;
-    
+
 
 }
 
@@ -171,7 +171,7 @@ input {
 
 }
 
-.buttn2 {
+.orange-button {
     background: #FC593B;
     border-radius: 5px;
     border: none;
@@ -203,12 +203,12 @@ input {
 }
 
 .features .container {
-    
+
     display: grid;
     grid-template-columns: 338px 338px 338px;
     margin-bottom: 158px;
-    
-    
+
+
 
 
 
@@ -260,7 +260,7 @@ input {
     max-width: 297.94px;
     background-image: url(./imges/Rectangle\ \(2\).png);
     background-repeat: no-repeat;
-    
+
 
 }
 
@@ -302,7 +302,7 @@ input {
 
 }
 
-.buttn-three {
+.white-buttn {
     background: rgba(255, 255, 255, 1);
     padding: 19px 10px 20px;
     border-radius: 5px;
@@ -322,14 +322,14 @@ input {
 .content-right1 {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .section-three .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .section-three h4 {
@@ -404,18 +404,21 @@ input {
 
 }
 
-.content-right2{
+.content-right2 {
     margin-top: 163.01px;
     margin-bottom: 164.99px;
-    
+
 
 }
-.content-left2{
+
+.content-left2 {
     margin-bottom: 185px;
 }
+
 .underline {
-    border-bottom: 1px solid rgba(255, 255, 255, 1) ;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
+
 .section-four .container {
     display: flex;
     justify-content: space-between;
@@ -430,8 +433,8 @@ input {
     display: grid;
     grid-template-columns: repeat(2, 350px);
     gap: 30px;
-    
-    
+
+
 }
 
 .section-four h5 {
@@ -459,7 +462,7 @@ input {
 
 }
 
-.section-four  .content-p{
+.section-four .content-p {
     max-width: 315px;
     font-size: 18px;
     font-weight: 400;
@@ -481,28 +484,33 @@ input {
     background: rgba(255, 255, 255, 1);
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.0361);
     border-radius: 5px;
-    padding: 31px 39px  37px;
-    
+    padding: 31px 39px 37px;
+
 }
+
 .list-one {
-    padding-bottom: 30px ;
-    
+    padding-bottom: 30px;
+
 }
+
 .list-two {
     padding-bottom: 32px;
-    
+
 }
-.list-three  {
+
+.list-three {
     padding-bottom: 29px;
-    
+
 }
+
 .list-four {
     padding-bottom: 29px;
-    
+
 }
+
 .list {
     margin-top: 157px;
-       
+
 }
 
 
@@ -530,7 +538,7 @@ input {
     text-align: left;
     color: rgba(31, 31, 31, 1);
     margin-top: 30px;
-    
+
 
 
 }
@@ -542,7 +550,7 @@ input {
     letter-spacing: -0.4000000059604645px;
     text-align: left;
     color: rgba(102, 102, 102, 1);
-    
+
 
 
 }
@@ -557,6 +565,7 @@ input {
     margin-bottom: 131.5px;
     margin-top: 122px;
 }
+
 .section-five .container {
     display: flex;
     flex-direction: column;
@@ -565,8 +574,8 @@ input {
 }
 
 .section-five {
-    
-    
+
+
     background-image: url(./imges/Rectangle\ \(1\).png);
     height: 1106px;
 
@@ -595,46 +604,44 @@ input {
     margin-top: 49px;
     margin-bottom: 93px;
 }
-.price {
+
+.price .container {
     display: grid;
-    grid-template-columns: repeat(2,350px);
+    grid-template-columns: repeat(2, 350px);
     gap: 30px;
-    
-}
-.basic-one {
-color:  rgba(229, 229, 229, 1);
-font-size: 13px;
-font-weight: 700;
-line-height: 32px;
-letter-spacing: 0.43333330750465393px;
-text-align: left;
-margin: 29px 266px 26px 45px;
 
 }
+
+
 .price ul {
     list-style: none;
-    margin: 26px 99px 52px 72px;
-    
-    
+    margin-top: 26px;
+    margin-left: 48.52px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+
 }
 
 .price-1 {
     background: rgba(43, 64, 90, 1);
     border-radius: 6px;
-    
-    
+
+
 
 }
 
-.basic-one {
+.price-1 .basic {
+    display: flex;
     color: rgba(229, 229, 229, 1);
+    margin: 29px 266px 18px 45px;
     font-size: 13px;
     font-weight: 700;
     line-height: 32px;
     letter-spacing: 0.43333330750465393px;
     text-align: left;
-    margin-top: 29px;
-    margin-bottom: 18px;
+    text-transform: uppercase;
 
 }
 
@@ -646,24 +653,104 @@ margin: 29px 266px 26px 45px;
     letter-spacing: -1.2000000476837158px;
     text-align: left;
 
-}
-sup {
-font-size: 30px;
-font-weight: 700;
-line-height: 35px;
-letter-spacing: -1.2000000476837158px;
-text-align: left;
-margin-top: 26px;
-max-height: 35px;
+
+
 
 }
+
+sup {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: left;
+    margin-left: 2px;
+    margin-bottom: 21px;
+
+
+}
+
 .ninety {
-font-size: 50px;
-font-weight: 700;
-line-height: 60px;
-letter-spacing: -2px;
-text-align: left;
-margin-bottom: 2px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -2px;
+    text-align: left;
+    margin-bottom: 2px;
+    max-height: 60px;
+
+}
+
+ul .first-child {
+    color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.42500001192092896px;
+    text-align: left;
+}
+
+ul .second-child {
+    color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.42500001192092896px;
+    text-align: left;
+
+}
+
+ul .thirth-child {
+    color: rgba(135, 139, 144, 1);
+
+
+
+}
+
+ul .fourth-child {
+    color: rgba(135, 139, 144, 1);
+}
+
+
+.price-1 .first-child .second-child i {
+    color: rgba(255, 255, 255, 1);
+    margin-right: 10.89px;
+}
+
+.price i {
+    margin-right: 10.89px;
+}
+
+.price-1 button {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    border-radius: 5px;
+    background: rgba(37, 138, 255, 1);
+    cursor: pointer;
+    border: none;
+    padding: 15px 40px 14px;
+    margin: 39px 115px 5px 45px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -1.059999942779541px;
+    text-align: center;
+
+
+
+
+
+}
+
+.credit {
+    font-family: Karla;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    color: rgba(102, 102, 102, 1);
+    margin: 5px 166px 29px 45px;
 
 }
 
@@ -675,10 +762,12 @@ margin-bottom: 2px;
     letter-spacing: -0.6799998879432678px;
     text-align: left;
     margin-left: 45px;
+    margin-top: 18px;
+    margin-bottom: 5px;
 
 }
 
-.my-third {
+.my-thirth {
     max-width: 229px;
     font-size: 14px;
     font-weight: 400;
@@ -687,6 +776,8 @@ margin-bottom: 2px;
     color: rgba(229, 229, 229, 1);
     margin-left: 44px;
     margin-right: 77px;
+    margin-top: 17px;
+    margin-bottom: 26px;
 
 }
 
@@ -694,59 +785,191 @@ margin-bottom: 2px;
     background: rgba(255, 255, 255, 1);
     max-width: 350px;
     max-height: 515px;
+    border-radius: 6px;
 
 }
+
+.price-2 .head-price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pro {
+    color: rgba(102, 102, 102, 1);
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.43333330750465393px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 29px;
+
+}
+
+.green-buttn {
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: -0.514285683631897px;
+    text-align: left;
+    text-transform: uppercase;
+    background: rgba(78, 171, 8, 1);
+    border-radius: 13px;
+    border: none;
+    padding: 6px 13px 5px 15px;
+    margin-top: 32px;
+
+
+
+}
+
+.price-2 sup {
+    color: rgba(31, 31, 31, 1);
+    margin-left: 45px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: left;
+
+}
+
+.twenty-nine {
+    color: rgba(31, 31, 31, 1);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -2px;
+    text-align: left;
+
+
+}
+
+.price-2 .my-fourth {
+    color: rgba(31, 31, 31, 1);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.6799998879432678px;
+    text-align: left;
+    margin-top: 18px;
+
+
+
+}
+
+.price-2 ul li {
+    color: rgba(31, 31, 31, 1);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.42500001192092896px;
+    text-align: left;
+
+}
+
+.pricing-p {
+    max-width: 229px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    color: rgba(102, 102, 102, 1);
+    text-align: left;
+    margin-top: 13px;
+    margin-left: 44px;
+    margin-bottom: 26px;
+
+}
+
+.price-2 ul li {
+    color: rgba(31, 31, 31, 1);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.42500001192092896px;
+    text-align: left;
+
+
+}
+
+.orange-buttn {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+    background: rgba(252, 89, 59, 1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px 40px 14px;
+    margin-left: 45px;
+    margin-top: 39px;
+
+
+
+}
+
 footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 footer .logo {
     margin-top: 164.5px;
     margin-bottom: 32px;
 }
+
 footer p {
-color:  rgba(102, 102, 102, 1);
-font-size: 16px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: -0.4000000059604645px;
-text-align: left;
-max-width: 318px;
-margin-bottom: 38px;
+    color: rgba(102, 102, 102, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    max-width: 318px;
+    margin-bottom: 38px;
 }
+
 footer .footer-logo {
     display: flex;
     gap: 18.67px;
     margin-bottom: 153px;
 }
+
 .menu .container {
     display: grid;
     grid-template-columns: 93px 137px 128px;
     gap: 95px;
     margin-top: 163.5px;
     margin-bottom: 127px;
-    
-    
+
+
 }
+
 footer ul {
-list-style: none;
-color: rgba(31, 31, 31, 1);
-font-size: 15px;
-font-weight: 700;
-line-height: 40px;
-text-align: left;
+    list-style: none;
+    color: rgba(31, 31, 31, 1);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
 
 
 
 }
+
 footer h4 {
-font-size: 14px;
-color: rgba(102, 102, 102, 1);
-font-weight: 700;
-line-height: 16px;
-letter-spacing: -0.4000000059604645px;
-text-align: left;
-margin-bottom: 51px;
+    font-size: 14px;
+    color: rgba(102, 102, 102, 1);
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    margin-bottom: 51px;
 
 }
