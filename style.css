@@ -109,7 +109,7 @@ nav ul {
 
 
 
-h1 {
+h2 {
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
@@ -121,7 +121,7 @@ h1 {
 
 }
 
-h2 {
+h1 {
     min-width: 614px;
     font-weight: 700;
     font-size: 70px;
@@ -244,12 +244,16 @@ input {
 
 }
 
+.section-two {
+    background-color: rgba(37, 138, 255, 1);
+
+}
+
 .section-two .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 100%;
-    background-color: rgba(37, 138, 255, 1);
+    gap: 165.22px;
 
 
 
@@ -260,6 +264,10 @@ input {
     max-width: 297.94px;
     background-image: url(./imges/Rectangle\ \(2\).png);
     background-repeat: no-repeat;
+    margin-bottom: 126.12px;
+    margin-top: 150px;
+
+
 
 
 }
@@ -317,11 +325,13 @@ input {
     text-align: center;
 
 
+
 }
 
 .content-right1 {
     display: flex;
     flex-direction: column;
+
 
 }
 
@@ -407,6 +417,10 @@ input {
 .content-right2 {
     margin-top: 163.01px;
     margin-bottom: 164.99px;
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 636px;
+    max-height: 636px;
 
 
 }
@@ -446,6 +460,7 @@ input {
     text-align: left;
     width: 186px;
     margin-bottom: 49px;
+    margin-top: 311px;
 
 }
 
@@ -605,9 +620,9 @@ input {
     margin-bottom: 93px;
 }
 
-.price .container {
-    display: grid;
-    grid-template-columns: repeat(2, 350px);
+.price {
+    display: flex;
+
     gap: 30px;
 
 }
@@ -783,6 +798,7 @@ ul .fourth-child {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 164px;
 }
 
 .pro {
@@ -794,6 +810,7 @@ ul .fourth-child {
     text-align: left;
     text-transform: uppercase;
     margin-top: 29px;
+    margin-left: 45px;
 
 }
 
@@ -811,6 +828,8 @@ ul .fourth-child {
     border: none;
     padding: 6px 13px 5px 15px;
     margin-top: 32px;
+    margin-right: 45px;
+
 
 
 
@@ -898,10 +917,8 @@ ul .fourth-child {
     padding: 15px 40px 14px;
     margin-left: 45px;
     margin-top: 29px;
-
-
-
 }
+
 .credit {
     font-family: Karla;
     font-size: 14px;
@@ -918,6 +935,7 @@ footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 footer .logo {
@@ -940,6 +958,8 @@ footer .footer-logo {
     display: flex;
     gap: 18.67px;
     margin-bottom: 153px;
+
+
 }
 
 .menu .container {
@@ -972,5 +992,6 @@ footer h4 {
     letter-spacing: -0.4000000059604645px;
     text-align: left;
     margin-bottom: 51px;
+
 
 }
